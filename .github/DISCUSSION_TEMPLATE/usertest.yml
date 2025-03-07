@@ -47,7 +47,7 @@ body:
   - type: textarea
     id: feedback
     attributes:
-      label: Participant Observations & Feedback
+      label: 💬 Participant Observations & Feedback
       value: |
         Task Completion Success Rate
         
