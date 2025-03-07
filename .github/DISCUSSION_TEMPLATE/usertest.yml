@@ -53,23 +53,26 @@ body:
     attributes:
       label: Participant Observations & Feedback
       value: |
-        Task Completion Success Rate:
+        Task Completion Success Rate
         
-        Errors Encountered:
+        Errors Encountered
         
-        Confusing Elements:
+        Confusing Elements
         
-        USer Suggestions / Quotes:
+        User Suggestions / Quotes
 
   - type: textarea
     id: behavioral
     attributes:
       label: Behavioral & Performance Metrics
       value: |
-        Time Taken per Task: 
+        Time Taken per Task
+        
         Navigation Efficiency
+        
         Unexpected Behaviors Noted
-        Software Crashes or Bugs:
+        
+        Software Crashes or Bugs
 
   - type: textarea
     id: risk
