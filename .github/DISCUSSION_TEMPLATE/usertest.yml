@@ -53,28 +53,29 @@ body:
     attributes:
       label: Participant Observations & Feedback
       value: |
-        - Task Completion Success Rate: [Completed / Partially Completed / Failed]
-        - Errors Encountered: [Describe issues faced]
-        - Confusing Elements: [List UI/UX elements that caused difficulty]
-        - User Quotes ["Direct quotes from users"]
-        - Suggested Improvements: [User’s perspective on improvements]
+        Task Completion Success Rate:
+        
+        Errors Encountered:
+        
+        Confusing Elements:
+        
+        USer Suggestions / Quotes:
 
   - type: textarea
     id: behavioral
     attributes:
       label: Behavioral & Performance Metrics
       value: |
-        - Time Taken per Task: [Record task completion times]
-        - Navigation Efficiency: [Easy / Somewhat Difficult / Hard]
-        - Unexpected Behaviors Noted: [Any unusual actions taken by the user]
-        - Software Crashes or Bugs: [Yes/No + Description]
+        Time Taken per Task: 
+        Navigation Efficiency
+        Unexpected Behaviors Noted
+        Software Crashes or Bugs:
 
   - type: textarea
     id: risk
     attributes:
       label: Risk Assessment
-      placeholder: |
-        - Any new risks identified
+      placeholder: Any new risks identified
 
   - type: markdown
     attributes:
