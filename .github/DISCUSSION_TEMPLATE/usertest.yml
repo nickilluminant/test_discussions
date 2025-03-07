@@ -39,9 +39,9 @@ body:
       required: true
 
   - type: textarea
-    id: 🥅 goals
+    id: goals
     attributes:
-      label: Testing Goals
+      label: 🥅 Testing Goals
       placeholder: What are you testing?
 
   - type: textarea
