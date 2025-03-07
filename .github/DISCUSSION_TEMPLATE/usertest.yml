@@ -1,53 +1,74 @@
-title: "[General] "
-labels: ["General Introduction"]
+title: "User Test 2025-MM-DD"
+labels: ["User Test"]
 body:
   - type: markdown
     attributes:
       value: |
-        This is text that will show up in the template!
+        # User Test Notes
+
   - type: textarea
-    id: improvements
+    id: location
     attributes:
-      label: Top 3 improvements
-      description: "What are the top 3 improvements we could make to this project?"
+      label: Test Location
+      placeholder: "Office"
+    validations:
+      required: true
+
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware version
+      placeholder: "SP01"
+    validations:
+      required: true
+
+  - type: textarea
+    id: version
+    attributes:
+      label: Software version
+      placeholder: "v1.0.0"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: users
+    attributes:
+      label: Users
+      placeholder: "Lt. Dan, Forrest Gump"
+    validations:
+      required: true
+
+  - type: textarea
+    id: goals
+    attributes:
+      label: Testing Goals
       value: |
         1.
         2.
         3.
         ...
-      render: bash
-    validations:
-      required: true
-  - type: markdown
+
+  - type: textarea
+    id: feedback
     attributes:
+      label: Participant Observations & Feedback
       value: |
-        ## Markdown header
-        And some more markdown
-  - type: input
-    id: has-id
+        - **Task Completion Success Rate:** [Completed / Partially Completed / Failed]
+        - **Errors Encountered:** [Describe issues faced]
+        - **Confusing Elements:** [List UI/UX elements that caused difficulty]
+        - **User Quotes:** ["Direct quotes from users"]
+        - **Suggested Improvements:** [User’s perspective on improvements]
+
+  - type: textarea
+    id: behavioral
     attributes:
-      label: Suggestions
-      description: A description about suggestions to help you
-    validations:
-      required: true
-  - type: dropdown
-    id: download
-    attributes:
-      label: Which area of this project could be most improved?
-      options:
-        - Documentation
-        - Pull request review time
-        - Bug fix time
-        - Release cadence
-    validations:
-      required: true
-  - type: checkboxes
-    attributes:
-      label: Check that box!
-      options:
-        - label: This one!
-          required: true
-        - label: I won't stop you if you check this one, too
+      label: Behavioral & Performance Metrics
+      value: |
+        - **Time Taken per Task:** [Record task completion times]
+        - **Navigation Efficiency:** [Easy / Somewhat Difficult / Hard]
+        - **Unexpected Behaviors Noted:** [Any unusual actions taken by the user]
+        - **Software Crashes or Bugs:** [Yes/No + Description]
+
   - type: markdown
     attributes:
       value: |
