@@ -69,6 +69,13 @@ body:
         - Unexpected Behaviors Noted: [Any unusual actions taken by the user]
         - Software Crashes or Bugs: [Yes/No + Description]
 
+  - type: textarea
+    id: risk
+    attributes:
+      label: Risk Assessment
+      placeholder: |
+        - Any new risks identified
+
   - type: markdown
     attributes:
       value: Fields can be edited after issue is created.
