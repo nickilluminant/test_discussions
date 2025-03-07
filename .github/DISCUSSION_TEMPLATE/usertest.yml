@@ -9,8 +9,8 @@ body:
   - type: input
     id: location
     attributes:
-      label: location
-      value: "Office"
+      label: Location
+      value: "5855 Green Valley Cir #101"
     validations:
       required: true
 
@@ -30,7 +30,7 @@ body:
     validations:
       required: true
   
-  - type: textarea
+  - type: input
     id: users
     attributes:
       label: Users
@@ -71,6 +71,4 @@ body:
 
   - type: markdown
     attributes:
-      value: |
-        ### The thrilling conclusion
-        _to our template_
+      value: Fields can be edited after issue is created.
