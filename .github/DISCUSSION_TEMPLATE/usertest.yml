@@ -42,7 +42,7 @@ body:
     id: goals
     attributes:
       label: Testing Goals
-      placehodler: What are you testing?
+      placeholder: What are you testing?
 
   - type: textarea
     id: feedback
