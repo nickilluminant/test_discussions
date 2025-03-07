@@ -5,11 +5,11 @@ body:
     attributes:
       value: |
         # User Test Notes
-
-  - type: textarea
+  
+  - type: input
     id: location
     attributes:
-      label: Test Location
+      label: location
       placeholder: "Office"
     validations:
       required: true
